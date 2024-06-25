@@ -1,26 +1,37 @@
 export const path = {
-    HOME: '/',
-    LOGIN: '/login',
-    LOG_OUT: '/logout',
-    SYSTEM: '/system'
+  HOME: "/",
+  HOMEPAGE: "/home",
+  LOGIN: "/login",
+  LOG_OUT: "/logout",
+  SYSTEM: "/system",
+  DOCTOR: "/doctor",
+  DETAIL_DOCTOR: "/detail-doctor/:id",
+  DETAIL_SPECIALTY: "/detail-specialty/:id",
+  DETAIL_CLINIC: "/detail-clinic/:id",
+  VERIFY_EMAIL: "/verify-email",
 };
 
-export const languages = {
-    VI: 'vi',
-    EN: 'en'
+export const LANGUAGES = {
+  VI: "vi",
+  EN: "en",
 };
- 
+
 export const manageActions = {
-    ADD: "ADD",
-    EDIT: "EDIT",
-    DELETE: "DELETE"
+  CREATE: "ADD",
+  EDIT: "EDIT",
+  DELETE: "DELETE",
 };
 
 export const dateFormat = {
-    SEND_TO_SERVER: 'DD/MM/YYYY'
+  SEND_TO_SERVER: "DD/MM/YYYY",
 };
 
 export const YesNoObj = {
-    YES: 'Y',
-    NO: 'N'
-}
+  YES: "Y",
+  NO: "N",
+};
+export const Roles = {
+  Admin: "R1",
+  Doctor: "R2",
+  Patent: "R3",
+};
